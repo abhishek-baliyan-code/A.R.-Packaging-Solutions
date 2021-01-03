@@ -1,19 +1,22 @@
-#navbar .logo {
-	float: none;
-	text-align: center;
+#navbar .container {
+	flex-flow: column;
+	align-items: center;
 }
 
-#navbar ul,
-#navbar ul li {
-	float: none;
+#navbar ul {
+	flex-flow: column;
 }
 
 #navbar ul li a {
 	padding: 5px;
 }
 
+#showcase {
+	
+}
+
 #showcase .showcase-content {
-	padding-top: 6rem;
+	/* padding-top: 6rem; */
 }
 
 #showcase .showcase-content h1 {
